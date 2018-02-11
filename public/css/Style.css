@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(88, 94, 100) !important;
+}
+    
+    .navbar {
+        overflow: hidden;
+        background-color: rgb(46, 65, 53);
+        font-family: Arial;
+    }
+    
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .dropdown {
+        float: left; /*För att få den dit den ska vara, mellan Detta ingår och Hitta hit*/
+        overflow: hidden;
+    }
+    
+    .dropdown .dropbtn {
+        font-size: 16px;    
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px; /*För att få den bredvid de andra i samma höjd*/
+        background-color: inherit;
+        font: inherit;
+        margin: 0;
+    }
+    
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: red; /*För att få en röd bakgrund på den man är på,m kan vara en fördel för färgblinda/synskadade*/
+    }
+    
+    .dropdown-content {
+        margin-top: 0px;
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: red;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    #gray{
+        color: rgb(49, 48, 48);
+    }
+
+    #lightgray{
+        background: rgb(212, 210, 210);
+        text-align: center;
+    }
+
+    #white{
+        background-color:white;
+        width: 75%;
+        height: 80%;
+        position: fixed;
+        margin-top: 5px;
+        margin-left:150px;                  
+    }
+
+    #smaller{
+        width: 10%;
+        background-position: top center;
+    }
+
+    #text{
+        color:white;
+    }
+
+    h4{
+        color: white;
+    }
+
+    #large{
+        font-size: 18px;
+        color: rgb(253, 253, 253);
+        width: 85%;
+    }
+
+ #medium{
+     width: 50%;
+     background-position: top center;
+     height: 250px;
+     float: left; 
+ }
+
+ li{
+	list-style-type: none;
+ }
+
+ #texts{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 16px;
+ }
+
+ #picture
+ {width: 50%; background-position: top center; height: 600px; float: left;}
+
+ #update
+ {height: 780px; }
+
+ label
+ {display: inline-block; text-align:right; width: 120px; margin-top:6px; font-size:20px; margin-left:10px;}
+
+input
+ {margin-left:50px;}
+
+ table
+ {
+     padding: 15px;
+     border-radius: 15px;
+     border-style:none; 
+     background-color: rgb(42, 34, 71);
+     color:white; 
+     height: auto;
+     font-size:18px;
+}
+
+tr:hover{
+    background-color: rgb(36, 22, 58);
+}

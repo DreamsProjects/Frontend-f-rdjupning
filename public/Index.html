@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/Style.css">
+    <script src="js/Structure.js"></script>
+</head>
+
+<body>
+    <div>
+        <div>
+            <div class="navbar">
+                <a href="#Hem" id="hem">Hem</a>
+                <a href="#Bokning" id="bokning">Bokning/Priser</a>
+                <a href="#Villkor" id="villkor">Detta ingår</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Omgivning
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <ul class="dropdown-content">
+                        <li><a href="#" style="background-color: black; color:white;">Livsmedel</a></li>
+                        <li><a href="https://www.ica.se/butiker/nara/gotland/hoburgshallen-1591/start/">Mataffär</a></li>
+                        <li><a href="http://www.hemse.com/">Systembolag-Hemse</a></li>
+
+                        <li><a href="#" style="background-color: black; color:white;">Aktiviteter</a></li>
+                        <li><a href="http://www.badkartan.se/Gotland/Sundre/">Bad</a></li>
+                        <li><a href="http://www.korsbarsgarden.se/">Körsbärsgården Konsthall Café-Restaurang</a></li>
+                        <li><a href="http://www.gotlandsbrynet.se/Kettelviskmuseet.html">Stenmuseet</a></li>
+                        <li><a href="http://www.bygdeband.se/bildgalleri/2328186/sverige/gotlands-lan/gotland/sundre-socken/livraddningsstationen-i-sundre">Livräddningsstationen</a></li>
+                        <li><a href="https://www.majstregarden.se/">Maistregården Café-Restaurang</a></li>
+                        <li><a href="http://www.holmhallar.se/">Holmhällar Restaurang och bad</a></li>
+                        <li><a href="https://bertilnorrbyab.wordpress.com/">Hyra cykel</a></li>
+                        <li><a href="http://www.gotland.net/plats/hoburgs-fyr">Hoburgs fyr</a></li>
+                        <li><a href="http://gotland.com/produkter/156224/150/">Museum Lars Jonssson/ Vamlingbo prästgård</a></li>
+                        <li><a href="http://www.vamlingbo.se">Vamlingbo</a></li>
+                        <li><a href="http://www.storsudret.com/">Stor Sundre</a></li>
+
+                        <li><a href="#" style="background-color: black; color:white;">Natur</a></li>
+                        <li><a href="https://sv.wikipedia.org/wiki/Hoburgsgubben">Hoburgen</a></li>
+                        <li><a href="http://www.bygdeband.se/?post_type=attachment&p=496829">Barshageudd</a></li>
+                        <li><a href="http://www.sundresockenforening.se/">Sundre Sockenförening</a></li>
+                    </ul>
+                </div>
+                <a class="menu" href="#Kommunikation" id="kommunikation">Hitta hit</a>
+                <a class="menu" href="#Historia" id="historia">Skolans historia</a>
+                <a class="menu" href="#Login" id="login">Logga in</a>
+            </div>
+            <div id="update">
+                <!--Denna diven ska uppdateras beroende på vad användaren väljer att göra! just nu har den default värde för vart den ska börja-->
+
+                <h1 id='gray'>
+                    <b>Hyr Sundre gamla skola från 3 500:-/v 2018</b>
+                </h1>
+                <div>
+                <img id='large' class='img-rounded' src='./images/Huvudbild.jpg' style='height: 500px; width: 1500px;' />
+                </div>
+                <img id='smaller' class='img-rounded' onclick='bigPic(this)' onmouseout='smallPic(this)' style='float:left; height:130px; width:100px;' src='./images/sovrum.jpg' />
+                <img id='smaller' class='img-rounded' onclick='bigPic(this)' onmouseout='smallPic(this)' style='float:left; height:130px; width:100px;' src='./images/sovrumOkök.jpg' />
+                <img id='smaller' class='img-rounded' onclick='bigPic(this)' onmouseout='smallPic(this)' style='float:left; height:130px; width:100px;' src='./images/kök.jpg' />
+                <img id='smaller' class='img-rounded' onclick='bigPic(this)' onmouseout='smallPic(this)' style='float:left; height:130px; width:100px;' src='./images/kök2.jpg' />
+                <img id='smaller' class='img-rounded' onclick='bigPic(this)' onmouseout='smallPic(this)' style='float:left; height:130px; width:100px;' src='./images/trädgård.jpg' />
+                <img id='smaller' class='img-rounded' onclick='bigPic(this)' onmouseout='smallPic(this)' style='float:left; height:130px; width:100px;' src='./images/flygfoto.jpg' />
+                <h3>&nbsp Klicka på bilderna för att förstora och ta bort muspekaren för att minimera tillbaka</h3>
+            </div>
+        </div>
+        <!--Går också bra med en footer istället för en h4!-->
+        <h4><br/>Ägare: Sundre sockenförening, Kontakt: Kurt Andersson, Mail: Sundreskola@gmail.com, Mobil: 0707956777 </h4>
+    </div>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+</body>
+</html>
